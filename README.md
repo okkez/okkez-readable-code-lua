@@ -3,5 +3,5 @@
 ## Usage
 
 ```text
-$ lua recipe.lua
+$ lua recipe.lua recipe-data.txt [target_id]
 ```
