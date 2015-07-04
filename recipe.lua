@@ -9,7 +9,7 @@ for line in io.lines(filename) do
    id = id + 1
    if tonumber(target_id) == id then
       print(string.format("%d: %s", id, line))
-      os.exit()
+      break
    end
    if not target_id then
       print(string.format("%d: %s", id, line))
